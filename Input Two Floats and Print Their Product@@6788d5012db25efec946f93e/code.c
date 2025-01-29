@@ -6,4 +6,3 @@ int main() {
 
    prinf("Product: %f", a * b);
     return 0;
-}
