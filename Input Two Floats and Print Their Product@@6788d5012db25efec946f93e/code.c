@@ -2,8 +2,8 @@
 
 int main() {
    float a,b;
-   scanf("%d",&a,&b);
+   scanf("%f",&a,&b);
 
-   print("Product: %d", a * b);
+   print("Product: %.2f", a * b);
     return 0;
 }
