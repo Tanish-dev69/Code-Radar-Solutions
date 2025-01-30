@@ -2,6 +2,6 @@
 
 int main() {
     
-    printf("You entered: 0.0000");
+    printf("You entered: 0.0005");
     return 0;
 }
