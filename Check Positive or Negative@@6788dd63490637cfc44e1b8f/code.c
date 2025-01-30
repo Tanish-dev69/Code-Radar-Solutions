@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {    
-    scanf("%d",&num);    
+    scanf("%d", &num);    
     int num;    
     if (num > 0){        
         printf("Positive");
