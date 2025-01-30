@@ -1,0 +1,1 @@
+#include <stdio.h>int main() {    scanf("%d",&num);    int num;    if (num < 0){        printf()    }    return 0;}
