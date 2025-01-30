@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    
-    printf("You entered: 0.0005");
+    double d;
+    scanf("%1f", &d);
+    printf("You entered: %f", d);
     return 0;
 }
