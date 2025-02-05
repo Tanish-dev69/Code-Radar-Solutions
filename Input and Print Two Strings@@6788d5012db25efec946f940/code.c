@@ -1,7 +1,7 @@
 #include <stdio.h>
-int main() {
-    char str1[20], str2[20]; 
-    scanf("%s%s", str1, str2);
-    printf("You entered: %s and %s", str1, str2);
+int main(){
+    int strA[20],strB[20]
+    scanf("%s%s",&strA,&strB);
+    printf("You entered: %s",strA and strB);
     return 0;
 }
