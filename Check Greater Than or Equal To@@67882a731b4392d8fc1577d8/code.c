@@ -6,6 +6,6 @@ int main() {
     if (a >=b) {
         printf("True");
     } 
-    else {print("False");}
+    else (print("False");)
     return 0;
 }
