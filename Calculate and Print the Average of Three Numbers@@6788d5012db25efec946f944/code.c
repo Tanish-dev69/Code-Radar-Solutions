@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, num3;
-    
-    scanf("%d %d %d", &num1, &num2, &num3);
-    average = (num1 + num2 + num3) / 3.0; // Ensure float division
-    printf("Average: %.2f\n", average);
-
+    int num1,num2,num3;
+    float average;
+    scanf("%d%d%d", &num1,&num2,&num3);
+    average(num1+num2+num3)/3.0;
+    printf("Average: %d",average );
     return 0;
 }
