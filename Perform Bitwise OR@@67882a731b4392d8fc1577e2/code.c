@@ -5,7 +5,7 @@ int main() {
     int result;
     
     result = a|b;
-    printf("",a,b,result)
+    printf("",a,b,result);
    
     return 0;
 }
