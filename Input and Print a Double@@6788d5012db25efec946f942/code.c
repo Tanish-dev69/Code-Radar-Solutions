@@ -2,7 +2,7 @@
 
 int main() {
     double d;
-    scanf("%d", &f);
-    printf("You entered: %.4d\n", f);  // Added newline
+    scanf("%d", &d);
+    printf("You entered: %.4d\n", d); 
     return 0;
 }
