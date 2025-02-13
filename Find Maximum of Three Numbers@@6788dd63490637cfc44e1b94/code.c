@@ -7,8 +7,10 @@ int main() {
         printf("%d",a);
     } else if (b > a || b > c){
         printf("%d",b);
-    } else {
+    } else if (c > a || c > b){
         printf("%d",c);
+    } else {
+        
     }
       
     return 0;
