@@ -3,10 +3,10 @@
 int main() {
     int num, n;
     scanf("%d %d", &num, &n);
+    num = num & ~(1 << n);
 
-    int bitValue = (num >> n) & 1;
-
-    printf("%d\n", bitValue);
+    printf("%d\n", num);
 
     return 0;
 }
+
