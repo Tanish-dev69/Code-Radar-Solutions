@@ -3,13 +3,13 @@ int main(){
     char op;
     int a,b;
     scanf("%d %d %c",&a,&b,&op);
-    if (c== '+') {
+    if (op == '+') {
         printf("%d",a+b);
-    } else if (c == '-'){
+    } else if (op == '-'){
          printf("%d",a-b);
-    } else if (c == '*'){
+    } else if (op == '*'){
          printf("%d",a*b);
-    } else if (c == '/'){
+    } else if (op == '/'){
          printf("%d",a/b);
     } else {printf("error");}
     return 0;
